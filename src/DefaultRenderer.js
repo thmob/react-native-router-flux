@@ -7,8 +7,7 @@
  *
  */
 import React, {
-  PureComponent,
-  PropTypes,
+  PureComponent
 } from 'react';
 import {
   Animated,
@@ -22,6 +21,7 @@ import TabBar from './TabBar';
 import NavBar from './NavBar';
 import Actions from './Actions';
 import { deepestExplicitValueForKey } from './Util';
+import PropTypes from 'prop-types';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SCREEN_HEIGHT = Dimensions.get('window').height;
