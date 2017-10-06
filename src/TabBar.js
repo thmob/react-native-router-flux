@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   Image,
   View,
@@ -8,6 +8,7 @@ import DefaultRenderer from './DefaultRenderer';
 import Actions from './Actions';
 import TabbedView from './TabbedView';
 import { deepestExplicitValueForKey } from './Util';
+import PropTypes from 'prop-types';
 
 class TabBar extends Component {
 
