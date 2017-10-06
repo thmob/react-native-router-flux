@@ -7,8 +7,7 @@
  *
  */
 import React, {
-  Component,
-  PropTypes,
+  Component
 } from 'react';
 import { BackHandler } from 'react-native';
 import NavigationExperimental from 'react-native-experimental-navigation';
@@ -19,6 +18,7 @@ import Reducer, { findElement } from './Reducer';
 import DefaultRenderer from './DefaultRenderer';
 import Scene from './Scene';
 import * as ActionConst from './ActionConst';
+import PropTypes from 'prop-types';
 
 const {
   RootContainer: NavigationRootContainer,
