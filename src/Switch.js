@@ -1,6 +1,7 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import TabBar from './TabBar';
 import Actions from './Actions';
+import PropTypes from 'prop-types';
 
 export default function Switch(props) {
   const navState = props.navigationState;
